@@ -65,7 +65,7 @@ h1,h2,h3{
 .hero{
   max-width: 900px;
   margin: 0 auto;
-  padding: 8vh 24px 6vh;
+  padding: 1vh 24px 2vh;
   text-align: center;
 }
 .hero-title{
