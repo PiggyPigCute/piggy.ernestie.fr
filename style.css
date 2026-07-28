@@ -137,57 +137,60 @@ a.contact-pill:hover{
 }
 
 .card-photos{
-  position: relative;
-  height: 30px;
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: flex-end;
+  z-index: 2;
 }
 .photo{
-  position: absolute;
-  width: 88px;
-  padding: 6px 6px 16px;
-  background: #fff;
-  border-radius: 2px;
+  width: 108px;
+  height: 82px;
+  margin-left: -32px;
+  border-radius: 10px;
+  border: 2px solid #fff;
   box-shadow: 0 10px 20px rgba(0,0,0,.4);
+  overflow: hidden;
   transition: transform .3s ease, box-shadow .3s ease;
+}
+.photo:first-child{
+  margin-left: 0;
 }
 .photo img{
   width: 100%;
-  height: 64px;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
 .photo:nth-child(1){
-  top: -34px;
-  left: -12px;
-  transform: rotate(-10deg);
+  transform: rotate(-9deg);
   z-index: 1;
 }
 .photo:nth-child(2){
-  top: -46px;
-  left: 50%;
-  transform: translateX(-50%) rotate(5deg);
+  transform: rotate(4deg) translateY(-10px);
   z-index: 3;
 }
 .photo:nth-child(3){
-  top: -30px;
-  right: -14px;
-  transform: rotate(9deg);
+  transform: rotate(11deg);
   z-index: 2;
 }
 .card:hover .photo:nth-child(1), .card:focus-visible .photo:nth-child(1){
-  transform: rotate(-18deg) translateY(-4px);
+  transform: rotate(-16deg) translateY(-4px);
   box-shadow: 0 14px 26px rgba(0,0,0,.45);
 }
 .card:hover .photo:nth-child(2), .card:focus-visible .photo:nth-child(2){
-  transform: translateX(-50%) rotate(11deg) translateY(-6px);
+  transform: rotate(8deg) translateY(-16px);
   box-shadow: 0 14px 26px rgba(0,0,0,.45);
 }
 .card:hover .photo:nth-child(3), .card:focus-visible .photo:nth-child(3){
-  transform: rotate(17deg) translateY(-4px);
+  transform: rotate(18deg) translateY(-4px);
   box-shadow: 0 14px 26px rgba(0,0,0,.45);
 }
 
 .card-body{
-  padding: 40px 22px 24px;
+  padding: 24px 22px 84px;
 }
 .card-body h2{
   font-size: 1.3rem;
