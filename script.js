@@ -18,9 +18,9 @@ function renderCards(){
     card.innerHTML = `
       <div class="card-body">
         <div class="card-photos">
-          <div class="photo"><img src="${PLACEHOLDER_IMG}" alt=""></div>
-          <div class="photo"><img src="${PLACEHOLDER_IMG}" alt=""></div>
-          <div class="photo"><img src="${PLACEHOLDER_IMG}" alt=""></div>
+          <div class="photo"><img src="imgs/${family.imgs[0]}" alt=""></div>
+          <div class="photo"><img src="imgs/${family.imgs[1]}" alt=""></div>
+          <div class="photo"><img src="imgs/${family.imgs[2]}" alt=""></div>
         </div>
         <h2>${family.title}</h2>
         <p>${family.desc}</p>
