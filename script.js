@@ -1,48 +1,7 @@
 const PLACEHOLDER_IMG = "imgs/couro.jpg";
 const PLACEHOLDER_TEXT = "Description à venir.";
 
-const families = [
-  {
-    title: "Idéolangues",
-    desc: PLACEHOLDER_TEXT,
-    items: ["Vivianus", "Dibi", "Vikof", "Ernestien", "Kétonien", "Lachvabio", "Codatix", "Hyblien"],
-  },
-  {
-    title: "Micronations",
-    desc: PLACEHOLDER_TEXT,
-    items: ["Ernestie", "Dibistan", "Kétonie", "Goatopia", "Espradal", "Nesquacie"],
-  },
-  {
-    title: "Web",
-    desc: PLACEHOLDER_TEXT,
-    items: ["ernestie.fr", "dico.ernestie.fr", "portail.ernestie.fr (à faire)", "piggy.ernestie.fr", "crack.ernestie.fr", "Kal'n'dar"],
-  },
-  {
-    title: "Dessin vectoriel",
-    desc: PLACEHOLDER_TEXT,
-    items: ["Elek'atlom Kétonska", "Logo ASRD", "Logo Goat FC", "Logo La Défense", "Logo COCO", "Logo Olympique Chrûk"],
-  },
-  {
-    title: "Fablab enthousiast",
-    desc: PLACEHOLDER_TEXT,
-    items: ["Trophée CdM (ft. Papa, Alice)", "Médailles CdM", "Photo pour papa", "Loup Garou", "Horloge", "Sapins"],
-  },
-  {
-    title: "Python",
-    desc: PLACEHOLDER_TEXT,
-    items: ["Librairies Python"],
-  },
-  {
-    title: "Serveurs Discord",
-    desc: PLACEHOLDER_TEXT,
-    items: ["Ernestomôch", "Microballs", "IdeoBipBup"],
-  },
-  {
-    title: "Esolangs",
-    desc: PLACEHOLDER_TEXT,
-    items: ["Blip", "Linecode", "Falldown"],
-  },
-];
+let families = [];
 
 const cardsEl = document.getElementById("cards");
 const overlay = document.getElementById("modal-overlay");
@@ -102,4 +61,9 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeModal();
 });
 
-renderCards();
+fetch("families.json")
+  .then(res => res.json())
+  .then(data => {
+    families = data;
+    renderCards();
+  });

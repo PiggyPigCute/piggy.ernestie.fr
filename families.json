@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Idéolangues",
+    "desc": "Description à venir.",
+    "items": ["Vivianus", "Dibi", "Vikof", "Ernestien", "Kétonien", "Lachvabio", "Codatix", "Hyblien"]
+  },
+  {
+    "title": "Micronations",
+    "desc": "Description à venir.",
+    "items": ["Ernestie", "Dibistan", "Kétonie", "Goatopia", "Espradal", "Nesquacie"]
+  },
+  {
+    "title": "Web",
+    "desc": "Description à venir.",
+    "items": ["ernestie.fr", "dico.ernestie.fr", "portail.ernestie.fr (à faire)", "piggy.ernestie.fr", "crack.ernestie.fr", "Kal'n'dar"]
+  },
+  {
+    "title": "Dessin vectoriel",
+    "desc": "Description à venir.",
+    "items": ["Elek'atlom Kétonska", "Logo ASRD", "Logo Goat FC", "Logo La Défense", "Logo COCO", "Logo Olympique Chrûk"]
+  },
+  {
+    "title": "Fablab enthousiast",
+    "desc": "Description à venir.",
+    "items": ["Trophée CdM (ft. Papa, Alice)", "Médailles CdM", "Photo pour papa", "Loup Garou", "Horloge", "Sapins"]
+  },
+  {
+    "title": "Python",
+    "desc": "Description à venir.",
+    "items": ["Librairies Python"]
+  },
+  {
+    "title": "Serveurs Discord",
+    "desc": "Description à venir.",
+    "items": ["Ernestomôch", "Microballs", "IdeoBipBup"]
+  },
+  {
+    "title": "Esolangs",
+    "desc": "Description à venir.",
+    "items": ["Blip", "Linecode", "Falldown"]
+  }
+]
