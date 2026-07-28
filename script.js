@@ -9,6 +9,8 @@ const modalTitle = document.getElementById("modal-title");
 const modalDesc = document.getElementById("modal-desc");
 const modalItems = document.getElementById("modal-items");
 const modalClose = document.getElementById("modal-close");
+const discordBtn = document.getElementById("discord-btn");
+const toast = document.getElementById("toast");
 
 function renderCards(){
   families.forEach((family, index) => {
@@ -52,6 +54,20 @@ function openModal(index){
 function closeModal(){
   overlay.classList.remove("is-open");
 }
+
+let toastTimeout;
+function showToast(text){
+  toast.textContent = text;
+  toast.classList.add("is-visible");
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => toast.classList.remove("is-visible"), 2200);
+}
+
+discordBtn.addEventListener("click", () => {
+  navigator.clipboard.writeText("@piggypig").then(() => {
+    showToast("@piggypig copié dans le presse-papier");
+  });
+});
 
 modalClose.addEventListener("click", closeModal);
 overlay.addEventListener("click", (e) => {
