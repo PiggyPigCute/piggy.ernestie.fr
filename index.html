@@ -2,13 +2,48 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>PiggyPig</title>
-<meta name="description" content="Site personnel de PiggyPig">
-<!-- <link rel="stylesheet" href="style.css"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PiggyPig — Créations</title>
+<meta name="description" content="Site personnel de PiggyPig : idéolangues, micronations, sites web, dessin vectoriel, fablab, esolangs et plus.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-Coucou
-<!-- <script src="script.js" defer></script> -->
+<header class="site-header">
+  <div class="header-inner">
+    <span class="site-name">PiggyPig</span>
+    <nav class="contact-links">
+      <span class="contact-pill">Discord : @piggypig</span>
+      <a class="contact-pill" href="https://github.com/PiggyPigCute" target="_blank" rel="noopener">GitHub</a>
+      <a class="contact-pill" href="https://instagram.com/piggypigcute" target="_blank" rel="noopener">Instagram</a>
+      <a class="contact-pill" href="https://youtube.com/@PiggyPigCute" target="_blank" rel="noopener">YouTube</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <h1 class="hero-title">PiggyPig</h1>
+  <p class="hero-subtitle">Idéolangues, micronations, code et bricolages en tout genre.</p>
+</section>
+
+<main class="cards" id="cards"></main>
+
+<footer class="site-footer">
+  <p class="footer-motto">Fait avec amour (et un peu de désordre) par PiggyPig</p>
+</footer>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" id="modal-close" aria-label="Fermer">&times;</button>
+    <h2 class="modal-title" id="modal-title"></h2>
+    <p class="modal-desc" id="modal-desc"></p>
+    <div class="modal-items" id="modal-items"></div>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
 </body>
 </html>
