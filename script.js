@@ -57,12 +57,12 @@ function renderCards(){
     card.className = "card";
     card.type = "button";
     card.innerHTML = `
-      <div class="card-images">
-        <img src="${PLACEHOLDER_IMG}" alt="">
-        <img src="${PLACEHOLDER_IMG}" alt="">
-        <img src="${PLACEHOLDER_IMG}" alt="">
-      </div>
       <div class="card-body">
+        <div class="card-photos">
+          <div class="photo"><img src="${PLACEHOLDER_IMG}" alt=""></div>
+          <div class="photo"><img src="${PLACEHOLDER_IMG}" alt=""></div>
+          <div class="photo"><img src="${PLACEHOLDER_IMG}" alt=""></div>
+        </div>
         <h2>${family.title}</h2>
         <p>${family.desc}</p>
         <span class="card-cta">Découvrir <span class="card-cta-arrow">→</span></span>
