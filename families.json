@@ -1,50 +1,92 @@
 [
   {
     "title": "Idéolangues",
-    "desc": "Je m'ammuse à créer des langues, ça n'a beaucoup d'autres intérêts que ",
+    "desc": "Je m'ammuse à créer des langues, ça n'a beaucoup d'autres intérêts que de s'ammuser 🙃",
     "items": [
       {
         "title": "Vivianus",
-        "desc": "Description à venir.",
-        "links": [],
+        "desc": "J'ai créé cette langue en primaire 😁, elle est très complète, le vocabulaire est intégrablement basé sur le français mais la grammaire y est fondamentalement modifée afin d'obtenir une langue logique, simple et sans exceptions. En vivianus tous les mots sont invariables et on trouve une bijection entre les les sons et les lettres.",
+        "links": [
+          {
+            "label": "Idéopédia",
+            "url": "https://ideopedia.miraheze.org/wiki/Article:Piggus"
+          }
+        ],
         "imgs": [
-          "couro.jpg"
+          "vivianus-otis.jpg"
         ],
         "mainImg": null
       },
       {
         "title": "Dibi",
-        "desc": "Description à venir.",
-        "links": [],
+        "desc": "Moparleke uior (ksimior) med\"ibidreci 🪼. Le dibi est probablement ma préférée parmis ces langues, elle a été créé par une partie de la communauté du Dibistan. Elle est simple, logique, et sans (trop) d'exception, mais elle reste très originale et créative ✨️",
+        "links": [
+          {
+            "label": "Dico",
+            "url": "https://dibi-dictionary.onrender.com/"
+          },
+          {
+            "label": "Idéopédia",
+            "url": "https://ideopedia.miraheze.org/wiki/Article:Dibi"
+          },
+          {
+            "label": "Discord",
+            "url": "https://discord.gg/AHfW9ETZEK"
+          }
+        ],
         "imgs": [
-          "couro.jpg"
+          "dibi-screen-dico.jpg"
         ],
         "mainImg": null
       },
       {
         "title": "Vikof",
-        "desc": "Description à venir.",
+        "desc": "Le Vikof est une langue que j'ai créé durant le collège",
         "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
+        "imgs": [],
         "mainImg": null
       },
       {
         "title": "Ernestien",
-        "desc": "Description à venir.",
-        "links": [],
+        "desc": "L'ernestien est la langue créé avec mes amis de l'ENS, le même groupe qui est à l'origine de la micronation de l'Ernestie. C'est une langue qui dans sa grammaire est logique tout en étant légèrement absurde. Mais le vocabulaire, les étymologies, sont pour la grande majorités des références, des blagues, des jeux de mots nuls... bref c'est clairement la langue la plus drôle à créer 😂",
+        "links": [
+          {
+            "label": "Dico",
+            "url": "https://ernestie.fr/dico"
+          },
+          {
+            "label": "Idéopédia",
+            "url": "https://ideopedia.miraheze.org/wiki/Article:Ernestien"
+          },
+          {
+            "label": "Discord",
+            "url": "https://discord.gg/TP9nwJNC6S"
+          }
+        ],
         "imgs": [
-          "couro.jpg"
+          "ernestien-screen-dico.png"
         ],
         "mainImg": null
       },
       {
         "title": "Kétonien",
-        "desc": "Description à venir.",
-        "links": [],
+        "desc": "Le kétonien est la langue créée par la micronation de Kétonie, une micronation d'artistes antifascites. Je n'ai pas autant contribuée à cette langue qu'aux autres de cette liste, mais c'est la plus \"connue\". Toute la Kétonie connaît son existence et beaucoup doivent au moins connaître quelques expressions comme \"Nes ZXom sou n'musolnar\" (Siammo tutti antifascisti).",
+        "links": [
+          {
+            "label": "Dico",
+            "url": "https://docs.google.com/document/d/1r8sbbCvg4sOT8LrGyALqfoHygmIrzUS0yuUGv-wsVgU"
+          },
+          {
+            "label": "Grammaire",
+            "url": "https://docs.google.com/document/d/1Cntl6zbuExep1Z_C8OYpwLTknwFHndyYhMc-IEqSy9w"
+          },
+          {
+            "label": "Discord",
+            "url": "https://discord.gg/KcU76Ejs3T"
+          }
+        ],
         "imgs": [
-          "couro.jpg"
+          "ketonien-sticker-stnaz.jpg"
         ],
         "mainImg": null
       },
@@ -58,21 +100,17 @@
         "mainImg": null
       },
       {
-        "title": "Codatix",
-        "desc": "Description à venir.",
+        "title": "Imagix",
+        "desc": "L'imagix est une langue conceptuelle, une langue sans alphabet et surtout sans sans de lecture. Un texte est complètement invariant par rotation.",
         "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
+        "imgs": [],
         "mainImg": null
       },
       {
-        "title": "Hyblien",
-        "desc": "Description à venir.",
+        "title": "Codatix",
+        "desc": "Le codatix est aussi une langue conceptuelle, l'idée est de faire une langue \"humaine\" inspirée de la syntaxe de la programmation orientée objet.",
         "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
+        "imgs": [],
         "mainImg": null
       }
     ],
