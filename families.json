@@ -126,7 +126,11 @@
         "title": "Ernestie",
         "desc": "L'Ernestie est la micronation de l'ENS Ulm. Son nom vient des Ernests, noms des poissons se trouvant au milieu de la cour de l'École. Avec mes amis de l'ENS, nous avons cocréé cette micronation en 2025.",
         "links": [],
-        "imgs": [],
+        "imgs": [
+          "coupecdm-pasteur.jpg",
+          "ernestie-drapeau.png",
+          "ernestie-photo-drapeau.jpg"
+        ],
         "mainImg": "ernestie-drapeau.png"
       },
       {
