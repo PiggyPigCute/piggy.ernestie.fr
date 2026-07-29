@@ -317,7 +317,7 @@ h1,h2,h3{
 }
 .modal-items{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 .modal-item{
