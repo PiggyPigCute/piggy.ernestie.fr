@@ -322,6 +322,8 @@ h1,h2,h3{
 }
 .modal-item{
   position: relative;
+  display: flex;
+  flex-direction: column;
   background: var(--cream);
   border-radius: 10px;
   overflow: visible;
@@ -335,6 +337,9 @@ h1,h2,h3{
   border-radius: 10px 10px 0 0;
 }
 .modal-item-body{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding: 14px 16px 60px;
 }
 .modal-item-body h3{
@@ -401,7 +406,8 @@ h1,h2,h3{
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 12px;
+  margin-top: auto;
+  padding-top: 12px;
 }
 .modal-item-link{
   display: inline-flex;
