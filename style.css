@@ -15,9 +15,6 @@
   --body: "Work Sans", sans-serif;
 }
 
-*{
-  box-sizing: border-box;
-}
 html{
   scroll-behavior: smooth;
 }
@@ -283,7 +280,7 @@ h1,h2,h3{
 }
 .modal{
   position: relative;
-  width: min(880px, 100%);
+  width: 90%;
   background: var(--paper);
   color: var(--ink);
   border-radius: 16px;
