@@ -2,49 +2,440 @@
   {
     "title": "Idéolangues",
     "desc": "Je m'ammuse à créer des langues, ça n'a beaucoup d'autres intérêts que ",
-    "items": ["Vivianus", "Dibi", "Vikof", "Ernestien", "Kétonien", "Lachvabio", "Codatix", "Hyblien"],
-    "imgs": ["couro.jpg", "couro.jpg", "couro.jpg"]
+    "items": [
+      {
+        "title": "Vivianus",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Dibi",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Vikof",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Ernestien",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Kétonien",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Lachvabio",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Codatix",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Hyblien",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      }
+    ],
+    "imgs": [
+      "couro.jpg",
+      "couro.jpg",
+      "couro.jpg"
+    ]
   },
   {
     "title": "Micronations",
     "desc": "Description à venir.",
-    "items": ["Ernestie", "Dibistan", "Kétonie", "Goatopia", "Espradal", "Nesquacie"],
-    "imgs": ["couro.jpg", "couro.jpg", "couro.jpg"]
+    "items": [
+      {
+        "title": "Ernestie",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Dibistan",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Kétonie",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Goatopia",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Espradal",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Nesquacie",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      }
+    ],
+    "imgs": [
+      "couro.jpg",
+      "couro.jpg",
+      "couro.jpg"
+    ]
   },
   {
     "title": "Web",
     "desc": "Description à venir.",
-    "items": ["ernestie.fr", "dico.ernestie.fr", "portail.ernestie.fr (à faire)", "piggy.ernestie.fr", "crack.ernestie.fr", "Kal'n'dar"],
-    "imgs": ["couro.jpg", "couro.jpg", "couro.jpg"]
+    "items": [
+      {
+        "title": "ernestie.fr",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "dico.ernestie.fr",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "portail.ernestie.fr (à faire)",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "piggy.ernestie.fr",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "crack.ernestie.fr",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Kal'n'dar",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      }
+    ],
+    "imgs": [
+      "couro.jpg",
+      "couro.jpg",
+      "couro.jpg"
+    ]
   },
   {
     "title": "Dessin vectoriel",
     "desc": "Description à venir.",
-    "items": ["Elek'atlom Kétonska", "Logo ASRD", "Logo Goat FC", "Logo La Défense", "Logo COCO", "Logo Olympique Chrûk"],
-    "imgs": ["couro.jpg", "couro.jpg", "couro.jpg"]
+    "items": [
+      {
+        "title": "Elek'atlom Kétonska",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Logo ASRD",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Logo Goat FC",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Logo La Défense",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Logo COCO",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Logo Olympique Chrûk",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      }
+    ],
+    "imgs": [
+      "couro.jpg",
+      "couro.jpg",
+      "couro.jpg"
+    ]
   },
   {
     "title": "Fablab enthousiast",
     "desc": "Description à venir.",
-    "items": ["Trophée CdM (ft. Papa, Alice)", "Médailles CdM", "Photo pour papa", "Loup Garou", "Horloge", "Sapins"],
-    "imgs": ["couro.jpg", "couro.jpg", "couro.jpg"]
+    "items": [
+      {
+        "title": "Trophée CdM (ft. Papa, Alice)",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Médailles CdM",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Photo pour papa",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Loup Garou",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Horloge",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Sapins",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      }
+    ],
+    "imgs": [
+      "couro.jpg",
+      "couro.jpg",
+      "couro.jpg"
+    ]
   },
   {
     "title": "Python",
     "desc": "Description à venir.",
-    "items": ["Librairies Python"],
-    "imgs": ["couro.jpg", "couro.jpg", "couro.jpg"]
+    "items": [
+      {
+        "title": "Librairies Python",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      }
+    ],
+    "imgs": [
+      "couro.jpg",
+      "couro.jpg",
+      "couro.jpg"
+    ]
   },
   {
     "title": "Serveurs Discord",
     "desc": "Description à venir.",
-    "items": ["Ernestomôch", "Microballs", "IdeoBipBup"],
-    "imgs": ["couro.jpg", "couro.jpg", "couro.jpg"]
+    "items": [
+      {
+        "title": "Ernestomôch",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Microballs",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "IdeoBipBup",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      }
+    ],
+    "imgs": [
+      "couro.jpg",
+      "couro.jpg",
+      "couro.jpg"
+    ]
   },
   {
     "title": "Esolangs",
     "desc": "Description à venir.",
-    "items": ["Blip", "Linecode", "Falldown"],
-    "imgs": ["couro.jpg", "couro.jpg", "couro.jpg"]
+    "items": [
+      {
+        "title": "Blip",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Linecode",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      },
+      {
+        "title": "Falldown",
+        "desc": "Description à venir.",
+        "links": [],
+        "imgs": [
+          "couro.jpg"
+        ],
+        "mainImg": null
+      }
+    ],
+    "imgs": [
+      "couro.jpg",
+      "couro.jpg",
+      "couro.jpg"
+    ]
   }
 ]

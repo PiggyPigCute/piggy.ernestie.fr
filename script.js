@@ -1,6 +1,3 @@
-const PLACEHOLDER_IMG = "imgs/couro.jpg";
-const PLACEHOLDER_TEXT = "Description à venir.";
-
 let families = [];
 
 const cardsEl = document.getElementById("cards");
@@ -38,17 +35,36 @@ function openModal(index){
   const family = families[index];
   modalTitle.textContent = family.title;
   modalDesc.textContent = family.desc;
-  modalItems.innerHTML = family.items.map(item => `
-    <div class="modal-item">
-      <img src="${PLACEHOLDER_IMG}" alt="">
-      <div class="modal-item-body">
-        <h3>${item}</h3>
-        <p>${PLACEHOLDER_TEXT}</p>
-      </div>
-    </div>
-  `).join("");
+  modalItems.innerHTML = family.items.map(renderItem).join("");
   overlay.classList.add("is-open");
   modalClose.focus();
+}
+
+function renderItem(item){
+  const mainImg = item.mainImg
+    ? `<img class="modal-item-main" src="imgs/${item.mainImg}" alt="">`
+    : "";
+  const links = (item.links || []).length
+    ? `<div class="modal-item-links">${item.links.map(link => `
+        <a class="modal-item-link" href="${link.url}" target="_blank" rel="noopener">${link.label}</a>
+      `).join("")}</div>`
+    : "";
+  const imgs = (item.imgs || []).length
+    ? `<div class="modal-item-imgs">${item.imgs.map(img => `
+        <img src="imgs/${img}" alt="">
+      `).join("")}</div>`
+    : "";
+  return `
+    <div class="modal-item">
+      ${mainImg}
+      <div class="modal-item-body">
+        <h3>${item.title}</h3>
+        <p>${item.desc}</p>
+        ${imgs}
+        ${links}
+      </div>
+    </div>
+  `;
 }
 
 function closeModal(){
