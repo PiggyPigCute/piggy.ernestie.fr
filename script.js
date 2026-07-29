@@ -60,8 +60,8 @@ function renderItem(item){
       <div class="modal-item-body">
         <h3>${item.title}</h3>
         <p>${item.desc}</p>
-        ${imgs}
         ${links}
+        ${imgs}
       </div>
     </div>
   `;

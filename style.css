@@ -347,15 +347,31 @@ h1,h2,h3{
 }
 .modal-item-imgs{
   display: flex;
-  gap: 6px;
-  margin-top: 10px;
+  margin-top: 14px;
 }
 .modal-item-imgs img{
-  width: 44px;
+  width: 56px;
   height: 44px;
-  border-radius: 6px;
+  margin-left: -18px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  box-shadow: 0 6px 14px rgba(0,0,0,.35);
   object-fit: cover;
-  border: 1px solid rgba(36,20,54,.15);
+}
+.modal-item-imgs img:first-child{
+  margin-left: 0;
+}
+.modal-item-imgs img:nth-child(1){
+  transform: rotate(-6deg);
+  z-index: 1;
+}
+.modal-item-imgs img:nth-child(2){
+  transform: rotate(3deg) translateY(-4px);
+  z-index: 3;
+}
+.modal-item-imgs img:nth-child(3){
+  transform: rotate(8deg);
+  z-index: 2;
 }
 .modal-item-links{
   display: flex;
