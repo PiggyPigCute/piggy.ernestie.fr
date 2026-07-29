@@ -8,6 +8,11 @@ const modalItems = document.getElementById("modal-items");
 const modalClose = document.getElementById("modal-close");
 const discordBtn = document.getElementById("discord-btn");
 const toast = document.getElementById("toast");
+const lightboxOverlay = document.getElementById("lightbox-overlay");
+const lightboxImg = document.getElementById("lightbox-img");
+const lightboxClose = document.getElementById("lightbox-close");
+const lightboxPrev = document.getElementById("lightbox-prev");
+const lightboxNext = document.getElementById("lightbox-next");
 
 function renderCards(){
   families.forEach((family, index) => {
@@ -50,8 +55,8 @@ function renderItem(item){
       `).join("")}</div>`
     : "";
   const imgs = (item.imgs || []).length
-    ? `<div class="modal-item-imgs">${item.imgs.map(img => `
-        <img src="imgs/${img}" alt="">
+    ? `<div class="modal-item-imgs">${item.imgs.map((img, i) => `
+        <img class="modal-item-thumb" src="imgs/${img}" alt="" data-images='${JSON.stringify(item.imgs)}' data-index="${i}">
       `).join("")}</div>`
     : "";
   return `
@@ -69,6 +74,37 @@ function renderItem(item){
 
 function closeModal(){
   overlay.classList.remove("is-open");
+}
+
+let lightboxImages = [];
+let lightboxIndex = 0;
+
+function openLightbox(images, index){
+  lightboxImages = images;
+  lightboxIndex = index;
+  updateLightboxImage();
+  lightboxOverlay.classList.add("is-open");
+}
+
+function updateLightboxImage(){
+  lightboxImg.src = `imgs/${lightboxImages[lightboxIndex]}`;
+  const multiple = lightboxImages.length > 1;
+  lightboxPrev.style.display = multiple ? "" : "none";
+  lightboxNext.style.display = multiple ? "" : "none";
+}
+
+function showPrevImage(){
+  lightboxIndex = (lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length;
+  updateLightboxImage();
+}
+
+function showNextImage(){
+  lightboxIndex = (lightboxIndex + 1) % lightboxImages.length;
+  updateLightboxImage();
+}
+
+function closeLightbox(){
+  lightboxOverlay.classList.remove("is-open");
 }
 
 let toastTimeout;
@@ -89,7 +125,27 @@ modalClose.addEventListener("click", closeModal);
 overlay.addEventListener("click", (e) => {
   if (e.target === overlay) closeModal();
 });
+
+modalItems.addEventListener("click", (e) => {
+  const thumb = e.target.closest(".modal-item-thumb");
+  if (!thumb) return;
+  openLightbox(JSON.parse(thumb.dataset.images), Number(thumb.dataset.index));
+});
+
+lightboxClose.addEventListener("click", closeLightbox);
+lightboxPrev.addEventListener("click", showPrevImage);
+lightboxNext.addEventListener("click", showNextImage);
+lightboxOverlay.addEventListener("click", (e) => {
+  if (e.target === lightboxOverlay) closeLightbox();
+});
+
 document.addEventListener("keydown", (e) => {
+  if (lightboxOverlay.classList.contains("is-open")){
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowLeft") showPrevImage();
+    if (e.key === "ArrowRight") showNextImage();
+    return;
+  }
   if (e.key === "Escape") closeModal();
 });
 
