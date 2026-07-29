@@ -13,7 +13,7 @@
           }
         ],
         "imgs": [
-          "vivianus-otis.jpg"
+          "vivianus-otis.png"
         ],
         "mainImg": null
       },
@@ -35,7 +35,7 @@
           }
         ],
         "imgs": [
-          "dibi-screen-dico.jpg"
+          "dibi-screen-dico.png"
         ],
         "mainImg": null
       },
@@ -86,17 +86,15 @@
           }
         ],
         "imgs": [
-          "ketonien-sticker-stnaz.jpg"
+          "ketonien-sticker-stnaz.png"
         ],
         "mainImg": null
       },
       {
         "title": "Lachvabio",
-        "desc": "Description à venir.",
+        "desc": "Le Lachvabio est une langue divine, je l'ai créé avec une amie pour son worldbuilding",
         "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
+        "imgs": [],
         "mainImg": null
       },
       {
