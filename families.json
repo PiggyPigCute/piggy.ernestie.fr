@@ -120,67 +120,41 @@
   },
   {
     "title": "Micronations",
-    "desc": "Description à venir.",
+    "desc": "Une micronation c'est une éntité qui reprend les codes d'un État ou d'une nation sans être réellement reconnue. Ce sont surtout des communautés regroupée sous une idée originale.",
     "items": [
       {
         "title": "Ernestie",
-        "desc": "Description à venir.",
+        "desc": "L'Ernestie est la micronation de l'ENS Ulm. Son nom vient des Ernests, noms des poissons se trouvant au milieu de la cour de l'École. Avec mes amis de l'ENS, nous avons cocréé cette micronation en 2025.",
         "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
-        "mainImg": null
+        "imgs": [],
+        "mainImg": "ernestie-drapeau.png"
       },
       {
         "title": "Dibistan",
-        "desc": "Description à venir.",
+        "desc": "Le Dibistan est une micronation très vaste créée en 2021, c'est plus une nation qu'un état dans le sens où il n'a pas de gouvernement centralisé, c'est simplement un grand groupe de personnes répartis sur des centaines de serveurs Discord qui ont créé les culture dibistannaise.",
         "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
-        "mainImg": null
+        "imgs": [],
+        "mainImg": "dibistan-drapeau.jpeg"
       },
       {
         "title": "Kétonie",
-        "desc": "Description à venir.",
+        "desc": "La Kétonie est une micronation d'artistes antifascistes ✊️. Fondée en 2021, elle était une micronation consacrée à l'art et au partage. Au courant 2025, elle prend un tournant affirmant fortement des positions IRL importante en soutient aux peuples et communautés opprimés dans le monde et contre la monté du fascisme.",
         "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
-        "mainImg": null
+        "imgs": [],
+        "mainImg": "ketonie-drapeau.png"
       },
       {
         "title": "Goatopia",
-        "desc": "Description à venir.",
+        "desc": "Goatopia est une autre micronation dans laquelle j'ai été actif, j'y ai notemment été le premier Président de la République",
         "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
-        "mainImg": null
-      },
-      {
-        "title": "Espradal",
-        "desc": "Description à venir.",
-        "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
-        "mainImg": null
-      },
-      {
-        "title": "Nesquacie",
-        "desc": "Description à venir.",
-        "links": [],
-        "imgs": [
-          "couro.jpg"
-        ],
+        "imgs": [],
         "mainImg": null
       }
     ],
     "imgs": [
-      "couro.jpg",
-      "couro.jpg",
-      "couro.jpg"
+      "dibistan-drapeau.jpeg",
+      "ernestie-drapeau.png",
+      "ketonie-drapeau.png"
     ]
   },
   {
