@@ -166,13 +166,28 @@
     "desc": "Description à venir.",
     "items": [
       {
-        "title": "ernestie.fr",
-        "desc": "Description à venir.",
-        "links": [],
-        "imgs": [
-          "couro.jpg"
+        "title": "chruk.fr",
+        "desc": "Le site chruk.fr est mon site de redirection mvers tous les sites que j'ai créé que j'héberge. Je me suis amusé à faire une page de redirection très originale 😅",
+        "links": [
+          {
+            "label": "chruk.fr",
+            "url": "https://chruk.fr"
+          }
         ],
-        "mainImg": null
+        "imgs": [],
+        "mainImg": "chruk-fr.png"
+      },
+      {
+        "title": "ernestie.fr",
+        "desc": "C'est le site officiel de l'Ernestie, il présente la micronation.",
+        "links": [
+          {
+            "label": "ernestie.fr",
+            "url": "https://ernestie.fr"
+          }
+        ],
+        "imgs": [],
+        "mainImg": "ernestie-fr"
       },
       {
         "title": "dico.ernestie.fr",
